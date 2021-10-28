@@ -19,6 +19,6 @@ from techi.views import home, product
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', home),
+    path('', home),
     path('product/', product),
 ]

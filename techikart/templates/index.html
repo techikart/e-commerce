@@ -1,12 +1,11 @@
 
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hello</title>
+    <title>TECHIKART</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -23,6 +22,7 @@
       href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
       rel="stylesheet"
     />
+    <script src="https://kit.fontawesome.com/2b3d2ca623.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <title>TECHIKART</title>
 </head>
@@ -42,6 +42,8 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+      
+      
 
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto">
@@ -54,6 +56,9 @@
                   </div>
 
         </li>
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">HOME</a>
+        </li>
           <li class="nav-item">
             <a href="product.html" class="nav-link">PRODUCT</a>
           </li>
@@ -62,9 +67,19 @@
           </li>
           <li class="nav-item">
             <a href="about.html" class="nav-link">ABOUT US</a>
-          </li>
+          
+          
         </ul>
       </div>
+      <div class="bg-light">
+        <h1><a href="cart.html"  class="btn btn-light stretched-link">
+          <span class="translate-middle badge rounded-pill bg-danger">
+            99+
+            <span class="visually-hidden">unread messages</span>
+          </span><i class="fas fa-shopping-cart"></i>
+          </h1></a>
+      </div>
+      
     </div>
   </nav>
 
@@ -80,16 +95,16 @@
            We focus on our customers fundamental needs and try to make this place as easily accessable as it can.
          </p>
          <button
+         
            class="btn btn-primary btn-lg"
-           data-bs-toggle="modal"
-           data-bs-target="#reg"
+           
          >
            CLICK HERE FOR THE LATEST PRODUCTS!
          </button>
        </div>
        <img
          class="img-fluid w-50 d-none d-sm-block"
-         src="img/im1.jpg"
+         src="img/logo.jpeg"
          alt=""
        />
      </div>
@@ -97,7 +112,7 @@
  </section>
 
 <!--another-->
- <section class="bg-secondary text-light p-5">
+ <section class="bg-secondary text-light p-4">
   <div class="container">
     <div class="d-md-flex justify-content-between align-items-center">
       <h3 class="mb-3 mb-md-0">latest offers</h3>
@@ -109,33 +124,33 @@
 
  <!-- Boxes -->
  <section class="p-5">
-   <div class="container">
+   <div class="container bd-light">
      <div class="row text-center g-4">
        
   <div class="card" style="width: 18rem;">
-    <img src="img/laptop1.jpg" class="card-img-top" alt="...">
+    <img src="img/mouse2.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">laptop title</h5>
       <p class="card-text">some content</p>
-      <a href="#" class="btn btn-primary">view</a>
+      <a href="product_view.html" class="btn btn-primary">view</a>
     </div>
   </div>
   
   <div class="card" style="width: 18rem;">
-    <img src="img/laptop1.jpg" class="card-img-top" alt="...">
+    <img src="img/smpin1.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">laptop title</h5>
       <p class="card-text">some content</p>
-      <a href="#" class="btn btn-primary">view</a>
+      <a href="product_view.html" class="btn btn-primary">view</a>
     </div>
   </div>
   
   <div class="card" style="width: 18rem;">
-    <img src="img/laptop1.jpg" class="card-img-top" alt="...">
+    <img src="img/mouse.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">laptop title</h5>
       <p class="card-text">some content</p>
-      <a href="#" class="btn btn-primary">view</a>
+      <a href="product_view.html" class="btn btn-primary">view</a>
     </div>
   </div>
      </div>
@@ -245,14 +260,12 @@
 
 
 
+
 <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
    
-
-  
-    
   </body>
 </html>
